@@ -1,16 +1,20 @@
-# flutter_application_3actividad1
+Avtividad en clase 
+Actividad 1: La actividad por realizar es generar una aplicación que me permita buscar y mostrar Pokémons pero con todas sus características, incluida su foto, para lo cual puede consumir el endpoint: https://pokeapi.co/api/v2/pokemon/ditto , en este caso "ditto" es el nombre del Pokémon a mostrar.
 
-A new Flutter project.
+1.- Generamos nuestra aplicacion con flutter
 
-## Getting Started
+<img width="936" height="119" alt="image" src="https://github.com/user-attachments/assets/0cb5eb56-c99f-4989-8f5f-a92d9234dcfe" />
 
-This project is a starting point for a Flutter application.
+2.- Instalamos las dependencias necesarias.
 
-A few resources to get you started if this is your first Flutter project:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3830d1e1-0780-4b1b-9317-29c750805b1a" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9a0e255f-c413-4c05-b929-f806255f0c4c" />
+
+3.- Realizamos la codificacion.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/baa91ed4-b02a-4ea9-9d7c-fcb7859421c8" />
+
+4.- Inicializamos con el comando flutter Run
+
+<img width="1300" height="1008" alt="image" src="https://github.com/user-attachments/assets/651918cf-7c9c-443a-a873-3d234bc05032" />
