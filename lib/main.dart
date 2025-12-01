@@ -7,7 +7,6 @@ void main() {
   runApp(const MyApp());
 }
 
-/// Modelo de Pokémon
 class Pokemon {
   final int id;
   final String name;
@@ -66,7 +65,6 @@ class PokemonStat {
     }
 }
 
-/// Lógica para consumir la API
 Future<Pokemon> fetchPokemon(String name) async {
   final cleanedName = name.trim().toLowerCase();
   final url = Uri.parse('https://pokeapi.co/api/v2/pokemon/$cleanedName');
@@ -155,7 +153,6 @@ class _PokemonSearchPageState extends State<PokemonSearchPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Nombre + ID
             Row(
               children: [
                 if (pokemon.imageUrl.isNotEmpty)
@@ -187,7 +184,6 @@ class _PokemonSearchPageState extends State<PokemonSearchPage> {
             ),
             const SizedBox(height: 16),
 
-            // Tipos
             Text(
               'Tipos:',
               style: const TextStyle(fontWeight: FontWeight.bold),
@@ -200,7 +196,6 @@ class _PokemonSearchPageState extends State<PokemonSearchPage> {
             ),
             const SizedBox(height: 12),
 
-            // Habilidades
             Text(
               'Habilidades:',
               style: const TextStyle(fontWeight: FontWeight.bold),
@@ -213,7 +208,6 @@ class _PokemonSearchPageState extends State<PokemonSearchPage> {
             ),
             const SizedBox(height: 12),
 
-            // Stats
             Text(
               'Estadísticas base:',
               style: const TextStyle(fontWeight: FontWeight.bold),
@@ -266,7 +260,6 @@ class _PokemonSearchPageState extends State<PokemonSearchPage> {
             ),
             const SizedBox(height: 12),
 
-            // Botón buscar
             SizedBox(
               width: double.infinity,
               child: ElevatedButton.icon(
@@ -276,7 +269,6 @@ class _PokemonSearchPageState extends State<PokemonSearchPage> {
               ),
             ),
 
-            // Contenido
             if (_isLoading) ...[
               const SizedBox(height: 16),
               const CircularProgressIndicator(),
